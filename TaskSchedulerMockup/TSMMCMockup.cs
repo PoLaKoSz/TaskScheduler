@@ -23,6 +23,7 @@ namespace TaskSchedulerMockup
 		{
 			InitializeComponent();
 			Icon = Resources.TaskScheduler;
+            StartPosition = FormStartPosition.CenterScreen;
 		}
 
 		private void connectToAnotherComputerToolStripMenuItem_Click(object sender, EventArgs e)
